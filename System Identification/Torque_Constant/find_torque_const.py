@@ -39,7 +39,7 @@ plt.rcParams['font.size'] = 9
 ### ------------------- Load Data ------------------- ###
 
 # Load the data for feedback linearization steps
-raw_data = pd.read_csv('torque_const4.csv')
+raw_data = pd.read_csv('torque_data.csv')
 raw_data.columns = ['time', 'Motor Abs Position', 'Motor Abs Velocity', 'Accel 1', 'Accel 2', \
                             'Accel 3', 'Motor Inc Position', 'Motor Inc Velocity', 'Joint Position', 'Joint Velocity',
                             'Desired Torque', 'Desired Current', 'Actual Current', 'var 6', 'var 7', "Motor Temperature",
